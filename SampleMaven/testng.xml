@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Grootan Test Suite" parallel="false">
+	<test name="Click Sections">
+		<classes>
+		
+		<class name="TestCases.clickSections" />
+		<class name="TestCases.excelWrite" />					 
+		<class name="TestCases.imageComparison" />
+		<class name="TestCases.screenshotCompare" />	
+			
+		</classes>
+	</test>
+</suite> 
